@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0
+}
+
+header {
+    font-family: 'Merriweather', serif;
+    background-color: #FF5C33;
+    margin: 0;
+    padding: 0  
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: .5em 0
+    
+}
+
+.floatleft {
+    float: left;
+    width: 7%;
+    margin: 1em
+}
+
+.floatright {
+    float: right;
+    width: 7%;
+    margin: 1em
+}
+
+ul {
+    font-family: 'Merriweather', serif;
+    color: white;
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+     display: inline-block;
+    margin: 0 1em
+}
